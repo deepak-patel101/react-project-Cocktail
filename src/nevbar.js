@@ -5,12 +5,12 @@ const Nevbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <Link to="/home">
+        <Link to="/">
           <h2>logo</h2>
         </Link>
         <ul className="nav-links">
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
